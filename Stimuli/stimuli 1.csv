@@ -1,0 +1,225 @@
+experiment,item,condition,sentence,prompt,question_type,options,literal_response,config
+V-Prep-NP,1,of_base,The team consisted of experienced professionals.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,1,of_NP,It was experienced professionals that the team consisted of.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,1,of_PP,It was of experienced professionals that the team consisted.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,2,of_base,The labor union approved of the strike.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,2,of_NP,It was the strike that the labor union approved of.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,2,of_PP,It was of the strike that the labor union approved.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,3,of_base,The child was afraid of the clown.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,3,of_NP,It was the clown that the child was afraid of.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,3,of_PP,It was of the clown that the child was afraid.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,4,of_base,The antelope were aware of the approaching lions.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,4,of_NP,It was the approaching lions that the antelope were aware of.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,4,of_PP,It was of the approaching lions that the antelope were aware.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,5,of_base,The mug was made of expensive clay.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,5,of_NP,It was expensive clay that the mug was made of.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,5,of_PP,It was of expensive clay that the mug was made.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,6,of_base,The boys were scared of the strong girl.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,6,of_NP,It was the strong girl that the boys were scared of.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,6,of_PP,It was of the strong girl that the boys were scared.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,7,of_base,The teacher disapproved of the large language model.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,7,of_NP,It was the large language model that the teacher disapproved of.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,7,of_PP,It was of the large language model that the teacher disapproved.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,8,of_base,The young girl dreamt of becoming a scientist.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,8,of_NP,It was becoming a scientist that the young girl dreamt of.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,8,of_PP,It was of becoming a scientist that the young girl dreamt.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,9,of_base,The family got rid of the junk in the garage.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,9,of_NP,It was the junk in the garage that the family got rid of.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,9,of_PP,It was of the junk in the garage that the family got rid.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,10,of_base,The hipsters heard of the cool band.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,10,of_NP,It was the cool band that the hipsters heard of.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,10,of_PP,It was of the cool band that the hipsters heard.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,11,of_base,The clever student took advantage of some math shortcuts.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,11,of_NP,It was some math shortcuts that the clever student took advantage of.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,11,of_PP,It was of some math shortcuts that the clever student took advantage.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,12,of_base,The grandmother thought of an inventive present for her grandchildren.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,12,of_NP,It was an inventive present for her grandchildren that the grandmother thought of.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-Prep-NP,12,of_PP,It was of an inventive present for her grandchildren that the grandmother thought.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,1,other_base,The boy waved to the girls on the shore.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,1,other_NP,It was the girls on the shore that the boy waved to.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,1,other_PP,It was to the girls on the shore that the boy waved.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,2,other_base,The cat listened to the birds in the yard.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,2,other_NP,It was the birds in the yard that the cat listened to.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,2,other_PP,It was to the birds in the yard that the cat listened.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,3,other_base,The student studied for the exam.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,3,other_NP,It was the exam that the student studied for.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,3,other_PP,It was for the exam that the student studied.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,4,other_base,The artist painted on the canvas.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,4,other_NP,It was the canvas that the artist painted on.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,4,other_PP,It was on the canvas that the artist painted.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,5,other_base,The bird sang from the tree branch.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,5,other_NP,It was the tree branch that the bird sang from.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,5,other_PP,It was from the tree branch that the bird sang.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,6,other_base,The dancer performed on the stage.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,6,other_NP,It was the stage that the dancer performed on.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,6,other_PP,It was on the stage that the dancer performed.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,7,other_base,The teacher taught in the classroom.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,7,other_NP,It was the classroom that the teacher taught in.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,7,other_PP,It was in the classroom that the teacher taught.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,8,other_base,The swimmer trained in the pool.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,8,other_NP,It was the pool that the swimmer trained in.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,8,other_PP,It was in the pool that the swimmer trained.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,9,other_base,The nurse cared for the patients.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,9,other_NP,It was the patients that the nurse cared for.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,9,other_PP,It was for the patients that the nurse cared.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,10,other_base,The chef worked at the restaurant.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,10,other_NP,It was the restaurant that the chef worked at.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,10,other_PP,It was at the restaurant that the chef worked.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,11,other_base,The athlete competed in the tournament.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,11,other_NP,It was the tournament that the athlete competed in.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,11,other_PP,It was in the tournament that the athlete competed.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,12,other_base,The student applied for the fellowship.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,12,other_NP,It was the fellowship that the student applied for.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+V-P-NP,12,other_PP,It was for the fellowship that the student applied.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,1,NA,He did not say how long the president would stay on holiday. ,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,2,NA,Her future appears as enticing as the illustrious past she draws from.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,3,NA,He felt strong and was clearly in better shape than the opposition. ,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,4,NA,All her years in Hollywood she wanted to keep the natural look.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,5,NA,All the dogs rapidly converged on one area where digging immediately started.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,6,NA,The world is no more dangerous today than it has ever been.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,7,NA,The museum is open daily from Easter to the end of October.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,8,NA,The soldier gathered her in his arms and took her to safety.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,9,NA,He is the person who has stood up about the tax cuts.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,10,NA,Her dressing gown and slippers were laid out next to the bed.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,11,NA,The old women grumble gently about nettle leaves hidden in the grass.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,12,NA,Friendship does not count for much in the world of big business.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,13,NA,Measures to help vulnerable customers do not appear to have been effective.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,14,NA,My mother was extremely good socially and very sensitive to family relationships.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,15,NA,The marchers were all women and almost all the stewards were men.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,16,NA,He was unconscious by the time fire crews arrived to free him.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,17,NA,He says the future lies in new crops that need less water.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,18,NA,It is sensible to invest only what you can afford to lose.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,19,NA,They could run off in any direction they wanted at any time.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,20,NA,These people were creating some very beautiful things with very little equipment.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,21,NA,The only reason to go away from here is to make money.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,22,NA,He is probably the most talented player on the planet right now.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,23,NA,He said that they were competent to carry out such an investigation.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,24,NA,She had recently given birth and had brought her baby with her. ,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,25,NA,Many eggs came to be broken in the making of this omelet.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,26,NA,The decision to study medicine almost went awry when his father died.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,27,NA,Then he noticed that the silk was in fact cunningly disguised polyester.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,28,NA,He made sure the altar could be seen from every point inside.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,29,NA,He pioneered the technique and used it almost exclusively from then on.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,30,NA,The regular bus service had been suspended because of the fuel shortage. ,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,31,NA,Behavior which used to be the norm is now condemned as offensive.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,32,NA,Rock music thrives on the sense of danger and rebellion it conveys.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,33,NA,We see no reason why the same phenomenon will not repeat itself.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,34,NA,Evidence from abroad showed students were prepared to take out large loans.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,35,NA,The doctors and nurses caring for him will be kept under observation.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,36,NA,The new identification tags would either run alongside or replace national labels.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,37,NA,The study gave scientists an insight into the age of the universe.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,38,NA,The floors and many of the walls are finished in polished aluminum.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,39,NA,She was perfect for the song and it became her next single.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+Filler,40,NA,The rain is lashing down outside and gales are rattling the windows.,How natural does the sentence sound?,multiple_choice,5-Very Natural_4-Natural_3-Neutral_2-Unnatural_1-Very Unnatural,NA,
+comprehension,1,comprehension,This question refers to the sentence above.,Did the team include any professors?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%1;condition%of_base
+comprehension,2,comprehension,This question refers to the sentence above.,Did the team include any professors?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%1;condition%of_NP
+comprehension,3,comprehension,This question refers to the sentence above.,Did the team include any professors?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%1;condition%of_PP
+comprehension,4,comprehension,This question refers to the sentence above.,Did the labor union approve anything?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%2;condition%of_base
+comprehension,5,comprehension,This question refers to the sentence above.,Did the labor union approve anything?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%2;condition%of_NP
+comprehension,6,comprehension,This question refers to the sentence above.,Did the labor union approve anything?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%2;condition%of_PP
+comprehension,7,comprehension,This question refers to the sentence above.,Was the child fearless?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%3;condition%of_base
+comprehension,8,comprehension,This question refers to the sentence above.,Was the child fearless?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%3;condition%of_NP
+comprehension,9,comprehension,This question refers to the sentence above.,Was the child fearless?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%3;condition%of_PP
+comprehension,10,comprehension,This question refers to the sentence above.,Were the lions approaching?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%4;condition%of_base
+comprehension,12,comprehension,This question refers to the sentence above.,Were the lions approaching?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%4;condition%of_NP
+comprehension,13,comprehension,This question refers to the sentence above.,Were the lions approaching?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%4;condition%of_PP
+comprehension,14,comprehension,This question refers to the sentence above.,Was the mug cheap?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%5;condition%of_base
+comprehension,15,comprehension,This question refers to the sentence above.,Was the mug cheap?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%5;condition%of_NP
+comprehension,16,comprehension,This question refers to the sentence above.,Was the mug cheap?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%5;condition%of_PP
+comprehension,17,comprehension,This question refers to the sentence above.,Was the girl weak?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%6;condition%of_base
+comprehension,18,comprehension,This question refers to the sentence above.,Was the girl weak?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%6;condition%of_NP
+comprehension,19,comprehension,This question refers to the sentence above.,Was the girl weak?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%6;condition%of_PP
+comprehension,20,comprehension,This question refers to the sentence above.,Was the teacher supportive of the large language model?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%7;condition%of_base
+comprehension,21,comprehension,This question refers to the sentence above.,Was the teacher supportive of the large language model?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%7;condition%of_NP
+comprehension,22,comprehension,This question refers to the sentence above.,Was the teacher supportive of the large language model?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%7;condition%of_PP
+comprehension,23,comprehension,This question refers to the sentence above.,Did the young girl have a dream?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%8;condition%of_base
+comprehension,24,comprehension,This question refers to the sentence above.,Did the young girl have a dream?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%8;condition%of_NP
+comprehension,25,comprehension,This question refers to the sentence above.,Did the young girl have a dream?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%8;condition%of_PP
+comprehension,26,comprehension,This question refers to the sentence above.,Did the family dump their junk?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%9;condition%of_base
+comprehension,27,comprehension,This question refers to the sentence above.,Did the family dump their junk?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%9;condition%of_NP
+comprehension,28,comprehension,This question refers to the sentence above.,Did the family dump their junk?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%9;condition%of_PP
+comprehension,29,comprehension,This question refers to the sentence above.,Were the hipsters unaware of the cool band?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%10;condition%of_base
+comprehension,30,comprehension,This question refers to the sentence above.,Were the hipsters unaware of the cool band?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%10;condition%of_NP
+comprehension,31,comprehension,This question refers to the sentence above.,Were the hipsters unaware of the cool band?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%10;condition%of_PP
+comprehension,32,comprehension,This question refers to the sentence above.,Did the student work out every step in the problem?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%11;condition%of_base
+comprehension,33,comprehension,This question refers to the sentence above.,Did the student work out every step in the problem?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%11;condition%of_NP
+comprehension,34,comprehension,This question refers to the sentence above.,Did the student work out every step in the problem?,multiple_choice,Yes_No,No,coordinate;experiment%V-Prep-NP;item%11;condition%of_PP
+comprehension,35,comprehension,This question refers to the sentence above.,Was the grandmother creative?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%12;condition%of_base
+comprehension,36,comprehension,This question refers to the sentence above.,Was the grandmother creative?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%12;condition%of_NP
+comprehension,37,comprehension,This question refers to the sentence above.,Was the grandmother creative?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-Prep-NP;item%12;condition%of_PP
+comprehension,38,comprehension,This question refers to the sentence above.,Did the boy wave to anyone?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%1;condition%other_base
+comprehension,39,comprehension,This question refers to the sentence above.,Did the boy wave to anyone?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%1;condition%other_NP
+comprehension,40,comprehension,This question refers to the sentence above.,Did the boy wave to anyone?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%1;condition%other_PP
+comprehension,41,comprehension,This question refers to the sentence above.,Were the birds in the yard?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%2;condition%other_base
+comprehension,42,comprehension,This question refers to the sentence above.,Were the birds in the yard?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%2;condition%other_NP
+comprehension,43,comprehension,This question refers to the sentence above.,Were the birds in the yard?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%2;condition%other_PP
+comprehension,44,comprehension,This question refers to the sentence above.,Were the students unprepared for the exam?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%3;condition%other_base
+comprehension,45,comprehension,This question refers to the sentence above.,Were the students unprepared for the exam?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%3;condition%other_NP
+comprehension,46,comprehension,This question refers to the sentence above.,Were the students unprepared for the exam?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%3;condition%other_PP
+comprehension,47,comprehension,This question refers to the sentence above.,Did the artist paint on paper?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%4;condition%other_base
+comprehension,48,comprehension,This question refers to the sentence above.,Did the artist paint on paper?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%4;condition%other_NP
+comprehension,49,comprehension,This question refers to the sentence above.,Did the artist paint on paper?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%4;condition%other_PP
+comprehension,50,comprehension,This question refers to the sentence above.,Did the bird sing?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%5;condition%other_base
+comprehension,51,comprehension,This question refers to the sentence above.,Did the bird sing?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%5;condition%other_NP
+comprehension,52,comprehension,This question refers to the sentence above.,Did the bird sing?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%5;condition%other_PP
+comprehension,53,comprehension,This question refers to the sentence above.,Did the dancer perform?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%6;condition%other_base
+comprehension,54,comprehension,This question refers to the sentence above.,Did the dancer perform?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%6;condition%other_NP
+comprehension,55,comprehension,This question refers to the sentence above.,Did the dancer perform?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%6;condition%other_PP
+comprehension,56,comprehension,This question refers to the sentence above.,Did the teacher give a lesson?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%7;condition%other_base
+comprehension,57,comprehension,This question refers to the sentence above.,Did the teacher give a lesson?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%7;condition%other_NP
+comprehension,58,comprehension,This question refers to the sentence above.,Did the teacher give a lesson?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%7;condition%other_PP
+comprehension,59,comprehension,This question refers to the sentence above.,Did the swimmer swim in the sea?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%8;condition%other_base
+comprehension,60,comprehension,This question refers to the sentence above.,Did the swimmer swim in the sea?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%8;condition%other_NP
+comprehension,61,comprehension,This question refers to the sentence above.,Did the swimmer swim in the sea?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%8;condition%other_PP
+comprehension,62,comprehension,This question refers to the sentence above.,Were the patients in need of care?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%9;condition%other_base
+comprehension,63,comprehension,This question refers to the sentence above.,Were the patients in need of care?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%9;condition%other_NP
+comprehension,64,comprehension,This question refers to the sentence above.,Were the patients in need of care?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%9;condition%other_PP
+comprehension,65,comprehension,This question refers to the sentence above.,Did the chef work at a hotel?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%10;condition%other_base
+comprehension,66,comprehension,This question refers to the sentence above.,Did the chef work at a hotel?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%10;condition%other_NP
+comprehension,67,comprehension,This question refers to the sentence above.,Did the chef work at a hotel?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%10;condition%other_PP
+comprehension,68,comprehension,This question refers to the sentence above.,Did the athlete quit the tournament?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%11;condition%other_base
+comprehension,69,comprehension,This question refers to the sentence above.,Did the athlete quit the tournament?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%11;condition%other_NP
+comprehension,70,comprehension,This question refers to the sentence above.,Did the athlete quit the tournament?,multiple_choice,Yes_No,No,coordinate;experiment%V-P-NP;item%11;condition%other_PP
+comprehension,71,comprehension,This question refers to the sentence above.,Did the student take a shot at the fellowship?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%12;condition%other_base
+comprehension,72,comprehension,This question refers to the sentence above.,Did the student take a shot at the fellowship?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%12;condition%other_NP
+comprehension,73,comprehension,This question refers to the sentence above.,Did the student take a shot at the fellowship?,multiple_choice,Yes_No,Yes,coordinate;experiment%V-P-NP;item%12;condition%other_PP
+comprehension,74,comprehension,This question refers to the sentence above.,Did he reveal everything about the president’s travel plan?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%1;condition%NA
+comprehension,75,comprehension,This question refers to the sentence above.,Is her future disappointing?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%2;condition%NA
+comprehension,76,comprehension,This question refers to the sentence above.,Was he weaker than his opponent? ,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%3;condition%NA
+comprehension,77,comprehension,This question refers to the sentence above.,Did she want to change her look?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%4;condition%NA
+comprehension,78,comprehension,This question refers to the sentence above.,Were the dogs spread out?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%5;condition%NA
+comprehension,79,comprehension,This question refers to the sentence above.,Is the world more dangerous today?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%6;condition%NA
+comprehension,80,comprehension,This question refers to the sentence above.,Is the museum open in December?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%7;condition%NA
+comprehension,81,comprehension,This question refers to the sentence above.,Did the soldier abandon her?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%8;condition%NA
+comprehension,82,comprehension,This question refers to the sentence above.,Does he oppose the tax cuts?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%9;condition%NA
+comprehension,83,comprehension,This question refers to the sentence above.,Was she wearing her dressing gown?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%10;condition%NA
+comprehension,84,comprehension,This question refers to the sentence above.,Is the old woman satisfied with her lawn?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%11;condition%NA
+comprehension,85,comprehension,This question refers to the sentence above.,Is friendship important in the world of big business?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%12;condition%NA
+comprehension,86,comprehension,This question refers to the sentence above.,Are the measures to help customers effective?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%13;condition%NA
+comprehension,87,comprehension,This question refers to the sentence above.,Was my mother socially awkward? ,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%14;condition%NA
+comprehension,88,comprehension,This question refers to the sentence above.,Did the marchers include both genders?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%15;condition%NA
+comprehension,89,comprehension,This question refers to the sentence above.,Was he unconscious?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%16;condition%NA
+comprehension,90,comprehension,This question refers to the sentence above.,Does he think the current water usage in agriculture is sustainable?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%17;condition%NA
+comprehension,91,comprehension,This question refers to the sentence above.,Is it sensible to invest in everything?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%18;condition%NA
+comprehension,92,comprehension,This question refers to the sentence above.,Were they trapped?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%19;condition%NA
+comprehension,93,comprehension,This question refers to the sentence above.,Were they fully-equipped?,multiple_choice,Yes_No,No,coordinate;experiment%Filler;item%20;condition%NA
+comprehension,94,comprehension,This question refers to the sentence above.,Is there a reason to go away?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%21;condition%NA
+comprehension,95,comprehension,This question refers to the sentence above.,Is he a player?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%22;condition%NA
+comprehension,96,comprehension,This question refers to the sentence above.,Were they capable of doing the investigation?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%23;condition%NA
+comprehension,97,comprehension,This question refers to the sentence above.,Does she have a baby?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%24;condition%NA
+comprehension,98,comprehension,This question refers to the sentence above.,Has anything been broken?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%25;condition%NA
+comprehension,99,comprehension,This question refers to the sentence above.,Did he want to study medicine before his father passed away?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%26;condition%NA
+comprehension,100,comprehension,This question refers to the sentence above.,Was the silk fake?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%27;condition%NA
+comprehension,101,comprehension,This question refers to the sentence above.,Can the altar be seen from inside?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%28;condition%NA
+comprehension,102,comprehension,This question refers to the sentence above.,Did he develop the technique?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%29;condition%NA
+comprehension,103,comprehension,This question refers to the sentence above.,Had the bus stopped running?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%30;condition%NA
+comprehension,104,comprehension,This question refers to the sentence above.,Have the norms changed?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%31;condition%NA
+comprehension,105,comprehension,This question refers to the sentence above.,Is rock music associated with the sense of danger?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%32;condition%NA
+comprehension,106,comprehension,This question refers to the sentence above.,Will the same phenomenon repeat itself?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%33;condition%NA
+comprehension,107,comprehension,This question refers to the sentence above.,Were students about to take out loans?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%34;condition%NA
+comprehension,108,comprehension,This question refers to the sentence above.,Will the doctors be observed?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%35;condition%NA
+comprehension,109,comprehension,This question refers to the sentence above.,Will the new identification tags be put into use?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%36;condition%NA
+comprehension,110,comprehension,This question refers to the sentence above.,Do scientists have any clue of the age of the universe?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%37;condition%NA
+comprehension,111,comprehension,This question refers to the sentence above.,Are the floors and walls finished with the same material?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%38;condition%NA
+comprehension,112,comprehension,This question refers to the sentence above.,Does the song suit her?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%39;condition%NA
+comprehension,113,comprehension,This question refers to the sentence above.,Is it raining cats and dogs?,multiple_choice,Yes_No,Yes,coordinate;experiment%Filler;item%40;condition%NA
