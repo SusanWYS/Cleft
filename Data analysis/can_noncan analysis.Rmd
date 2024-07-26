@@ -1,0 +1,116 @@
+```{r load libraries}
+library(tidyverse)
+library(memisc)
+library(ggplot2)
+library(rstudioapi)
+if(!require(tidyverse)) {install.packages("tidyverse"); require(tidyverse)}
+if(!require(rstudioapi)) {install.packages("rstudioapi"); require(rstudioapi)}
+if(!require(lme4)) {install.packages("lme4"); require(lme4)}
+if(!require(lmerTest)) {install.packages("lmerTest"); require(lmerTest)}
+if(!require(sjPlot)) {install.packages("sjPlot"); require(sjPlot)}
+if(!require(mgcv)) {install.packages("mgcv"); require(mgcv)}
+if(!require(ordinal)) {install.packages("ordinal"); require(ordinal)}
+if(!require(performance)) {install.packages("performance"); require(performance)}
+
+## Set working d
+
+## Set function defaults
+filter <- dplyr::filter
+group_by <- dplyr::group_by
+summarize <- dplyr::summarize
+select <- dplyr::select
+```
+
+```{r plotting settings and default languages}
+## Set plotting preferences
+ggplot2::theme_set(ggplot2::theme_bw(base_size=18))
+ggplot2::theme_update(panel.grid = ggplot2::element_blank(), 
+                      strip.background = ggplot2::element_blank(),
+                      legend.key = ggplot2::element_blank(),
+                      panel.border = ggplot2::element_blank(),
+                      axis.line = ggplot2::element_line(),
+                      strip.text = ggplot2::element_text(face = "bold"),
+                      plot.title = element_text(hjust = 0.5))
+options(ggplot2.discrete.colour= c("#A31F34", "#8A8B8C"))
+options(ggplot2.discrete.fill= c("#A31F34", "#8A8B8C"))
+
+## Set the working directory to be that of the current file
+setwd(dirname(rstudioapi::getActiveDocumentContext()$`path`))
+
+```
+
+```{r read and filter data}
+data = read_csv("Data/extension_data.csv")
+
+## Filter out non native speaker
+data = data %>%
+    filter(data$english_first_language == "Yes")
+
+## Filter out low accuracy participants
+data_comprehension = data %>%
+  filter(cond == "comprehension")
+
+comprehension_accuracy <- data_comprehension %>%
+  mutate(is_correct = as.numeric(response == literal_response)) %>%
+  group_by(participant_id) %>%
+  summarize(accuracy = mean(is_correct))
+
+filtered_comprehension <- comprehension_accuracy %>%
+  filter(accuracy >= 0.75)
+
+filtered_study <- data %>%
+  semi_join(filtered_comprehension, by = "participant_id")
+
+filtered_study$num_response = as.numeric(substr(filtered_study$response, 1, 1)) #convert responses to numeric values
+```
+
+
+```{r }
+filtered_study[, 'freq'] = NA
+extension_data_freqs = c(0.264638,0.185539,0.555147,0.090109,0.105443,0.013702,0.003191,0.012663,0.326233,0.220496,0.851738,0.182230,
+            0.480882,0.389820,0.031839,0.563278,0.059135,0.101877,0.677722,0.253865,0.474937,0.267531,0.651948,0.724143)
+for (x in 1:12) {
+  filtered_study <- filtered_study %>% 
+  mutate(freq = ifelse(item == x & experiment == "V-Prep-NP", extension_data_freqs[x], freq))
+  filtered_study <- filtered_study %>% 
+  mutate(freq = ifelse(item == x & experiment == "V-P-NP", extension_data_freqs[x+12], freq))
+}
+```
+
+```{r filter response by condition}
+of_data = filtered_study %>% filter(experiment == "V-Prep-NP")
+of_data$cond = str_sub(of_data$cond, 4)
+other_data = filtered_study %>% filter(experiment == "V-P-NP")
+other_data$cond = str_sub(other_data$cond, 7)
+of_NP = of_data%>% filter(cond != "PP")
+of_PP = of_data%>% filter(cond != "NP")
+oth_NP = other_data %>% filter(cond != "PP")
+oth_PP = other_data %>% filter(cond != "NP")
+of_NP$condn = as.numeric(factor(of_NP$cond))-1
+of_PP$condn = as.numeric(factor(of_PP$cond))-1
+oth_NP$condn = as.numeric(factor(oth_NP$cond))-1
+oth_PP$condn = as.numeric(factor(oth_PP$cond))-1
+```
+
+```{r}
+a = bind_rows(of_NP,of_PP)
+b = bind_rows(oth_NP,oth_PP)
+a$word = factor("of")
+b$word = factor("oth")
+a$cond = factor(a$cond)
+b$cond = factor(b$cond)
+c = bind_rows(a,b)
+c$cond <- relevel(c$cond, ref="PP")
+c$word <- relevel(c$word, ref="oth")
+
+contrasts(c$cond) = contr.treatment(3)
+contrasts(c$word) <- contr.treatment(2)
+c$num_response = factor(c$num_response)
+cumulative_model <- clm(num_response ~ word * cond, data=c)
+tab_model(cumulative_model,show.stat = TRUE)
+df = c
+
+df$num_response = as.numeric(df$num_response)
+mixeff_model2 <- lmer(num_response ~ word * cond + freq + (word * cond|participant_id), data=df)
+tab_model(mixeff_model2,show.stat = TRUE)
+```
